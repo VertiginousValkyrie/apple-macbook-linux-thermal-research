@@ -1,0 +1,11 @@
+===== POST-STRESS COOLING RECOVERY =====
+ke 18.11.2026 20.19.22 +0200
+Duration: 60 seconds
+Interval: 5 seconds
+
+===== SAMPLE 1 =====
+20:19:22
+Exhaust  :   2024 RPM  (min = 1200 RPM, max = 6500 RPM)
+Package id 0:  +68.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 0:        +68.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 1:        +68.0°C  (high = +100.0°C, crit = +100.0°C)

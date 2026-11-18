@@ -1,0 +1,144 @@
+===== DATE =====
+ke 18.11.2026 19.21.15 +0200
+===== SYSTEM =====
+Linux fedoralinux 7.3.4-300.fc45.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Nov 11 00:15:32 UTC 2026 x86_64 GNU/Linux
+Fedora release 45 (Forty Five)
+===== CPU =====
+Architecture:                            x86_64
+CPU op-mode(s):                          32-bit, 64-bit
+Address sizes:                           39 bits physical, 48 bits virtual
+Byte Order:                              Little Endian
+CPU(s):                                  4
+On-line CPU(s) list:                     0-3
+Vendor ID:                               GenuineIntel
+Model name:                              Intel(R) Core(TM) i5-4260U CPU @ 1.40GHz
+CPU family:                              6
+Model:                                   69
+Thread(s) per core:                      2
+Core(s) per socket:                      2
+Socket(s):                               1
+Stepping:                                1
+Microcode version:                       0x26
+CPU(s) scaling MHz:                      73%
+CPU max MHz:                             2700,0000
+CPU min MHz:                             800,0000
+BogoMIPS:                                4000,35
+Flags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm cpuid_fault epb pti ssbd ibrs ibpb stibp tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid xsaveopt dtherm ida arat pln pts vnmi md_clear flush_l1d
+Virtualization:                          VT-x
+L1d cache:                               64 KiB (2 instances)
+L1i cache:                               64 KiB (2 instances)
+L2 cache:                                512 KiB (2 instances)
+L3 cache:                                3 MiB (1 instance)
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-3
+Vulnerability Gather data sampling:      Not affected
+Vulnerability Ghostwrite:                Not affected
+Vulnerability Indirect target selection: Not affected
+Vulnerability Itlb multihit:             KVM: Mitigation: Split huge pages
+Vulnerability L1tf:                      Mitigation; PTE Inversion; VMX conditional cache flushes, SMT vulnerable
+Vulnerability Mds:                       Mitigation; Clear CPU buffers; SMT vulnerable
+Vulnerability Meltdown:                  Mitigation; PTI
+Vulnerability Mmio stale data:           Not affected
+Vulnerability Old microcode:             Not affected
+Vulnerability Reg file data sampling:    Not affected
+Vulnerability Retbleed:                  Not affected
+Vulnerability Spec rstack overflow:      Not affected
+Vulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:                Mitigation; Retpolines; IBPB conditional; IBRS_FW; STIBP conditional; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerability Srbds:                     Mitigation; Microcode
+Vulnerability Tsa:                       Not affected
+Vulnerability Tsx async abort:           Not affected
+Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspace
+===== MEMORY =====
+               total        used        free      shared  buff/cache   available
+Mem:           3,7Gi       2,8Gi       540Mi       313Mi       721Mi       921Mi
+Swap:          3,7Gi       1,3Gi       2,4Gi
+NAME       TYPE      SIZE USED PRIO
+/dev/zram0 partition 3,7G 1,3G  100
+===== POWER PROFILE =====
+Current active profile: balanced
+===== CPU GOVERNOR =====
+schedutil
+schedutil
+schedutil
+schedutil
+===== TEMPERATURES =====
+applesmc-isa-0300
+Adapter: ISA adapter
+Exhaust  :   1887 RPM  (min = 1200 RPM, max = 6500 RPM)
+TB0T:         +35.2°C  
+TB1T:         +35.2°C  
+TB2T:         +31.5°C  
+TBXT:         +35.2°C  
+TC0E:         +82.8°C  
+TC0F:         +84.0°C  
+TC0P:         +69.2°C  
+TC1C:         +80.0°C  
+TC2C:         +77.0°C  
+TCGC:         +75.0°C  
+TCHP:         +50.8°C  
+TCMX:         +80.0°C  
+TCSA:         +75.0°C  
+TCXC:         +77.8°C  
+TH0A:         +64.2°C  
+TH0B:         +56.0°C  
+TH0C:        -127.0°C  
+TH0F:         -28.0°C  
+TH0R:         -27.8°C  
+TH0V:         +59.8°C  
+TH0a:         +64.2°C  
+TH0b:         +56.0°C  
+TH0c:        -127.0°C  
+THSP:         +44.5°C  
+TM0P:         +56.8°C  
+TPCD:         +76.0°C  
+TS2P:         +58.2°C  
+TW0P:         +47.2°C  
+Ta0P:         +51.0°C  
+Th1H:         +42.8°C  
+Tm0P:         +46.2°C  
+Ts0P:         +32.2°C  
+Ts0S:         +41.5°C  
+
+coretemp-isa-0000
+Adapter: ISA adapter
+Package id 0:  +79.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 0:        +79.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 1:        +78.0°C  (high = +100.0°C, crit = +100.0°C)
+
+BAT0-acpi-0
+Adapter: ACPI interface
+in0:           8.49 V  
+temp:         +35.5°C  
+curr1:         0.00 A  (avg =  +0.00 A)
+
+===== DISK =====
+NAME     SIZE TYPE FSTYPE MOUNTPOINTS
+sda      113G disk        
+├─sda1   600M part vfat   /boot/efi
+├─sda2     2G part ext4   /boot
+└─sda3 110,4G part btrfs  /home
+                          /
+zram0    3,7G disk swap   [SWAP]
+===== TOP PROCESSES =====
+    PID COMMAND         %CPU %MEM   RSS
+   5219 Isolated Web Co 23.4 20.0 787000
+  11533 systemd         21.0  0.3 15256
+   4829 firefox          5.1  7.9 311940
+   3527 kwin_wayland     5.0  2.3 92088
+  11518 fprintd          2.1  0.2 10640
+  11556 dbus-broker-lau  1.8  0.1  4916
+   4995 WebExtensions    1.1 14.3 562356
+   5813 konsole          0.3  1.2 50668
+    666 kworker/u17:2-i  0.2  0.0     0
+   3554 plasmashell      0.1  5.1 200712
+     68 kswapd0          0.1  0.0     0
+     49 kcompactd0       0.0  0.0     0
+   5051 Privileged Cont  0.0  2.5 100528
+   3640 plasma-keyboard  0.0  0.9 36848
+      1 systemd          0.0  0.3 12060
+    934 rsyslogd         0.0  0.1  6868
+   4323 mysqld           0.0  0.1  6452
+   3977 DiscoverNotifie  0.0  0.4 15740
+  10611 kworker/u16:25-  0.0  0.0     0

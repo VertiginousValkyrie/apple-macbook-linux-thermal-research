@@ -1,0 +1,76 @@
+===== LONG CPU STRESS TEST =====
+ke 18.11.2026 19.53.19 +0200
+Duration: 180 seconds
+Workers: 4
+Method: matrixprod
+Temperature safety limit: 95 C
+
+===== INITIAL TEMPERATURE =====
+Exhaust  :   2183 RPM  (min = 1200 RPM, max = 6500 RPM)
+Package id 0:  +79.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 0:        +79.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 1:        +79.0°C  (high = +100.0°C, crit = +100.0°C)
+
+===== INITIAL CPU FREQUENCY =====
+/sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: 1607985 kHz
+/sys/devices/system/cpu/cpu1/cpufreq/scaling_cur_freq: 2400258 kHz
+/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq: 2400213 kHz
+/sys/devices/system/cpu/cpu3/cpufreq/scaling_cur_freq: 2400188 kHz
+
+===== THERMAL THROTTLE COUNTERS BEFORE =====
+/sys/devices/system/cpu/cpu0/thermal_throttle/core_throttle_count:0
+/sys/devices/system/cpu/cpu0/thermal_throttle/package_throttle_count:0
+/sys/devices/system/cpu/cpu1/thermal_throttle/core_throttle_count:0
+/sys/devices/system/cpu/cpu1/thermal_throttle/package_throttle_count:0
+/sys/devices/system/cpu/cpu2/thermal_throttle/core_throttle_count:0
+/sys/devices/system/cpu/cpu2/thermal_throttle/package_throttle_count:0
+/sys/devices/system/cpu/cpu3/thermal_throttle/core_throttle_count:0
+/sys/devices/system/cpu/cpu3/thermal_throttle/package_throttle_count:0
+19:53:19 CPU temperature: 79.0 C
+19:53:21 CPU temperature: 87.0 C
+19:53:23 CPU temperature: 89.0 C
+19:53:25 CPU temperature: 91.0 C
+19:53:27 CPU temperature: 92.0 C
+19:53:29 CPU temperature: 93.0 C
+19:53:31 CPU temperature: 94.0 C
+19:53:33 CPU temperature: 95.0 C
+SAFETY LIMIT REACHED - stopping stress test!
+
+===== STRESS-NG RESULTS =====
+stress-ng: info:  [12493] setting to a 3 mins run per stressor
+stress-ng: info:  [12493] dispatching hogs: 4 cpu
+stress-ng: info:  [12493] stopping 4 stressors
+stress-ng: metrc: [12493] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: metrc: [12493]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: metrc: [12493] cpu               27433     14.68     56.00      0.13      1868.15         488.74
+stress-ng: info:  [12493] skipped: 0
+stress-ng: info:  [12493] passed: 4: cpu (4)
+stress-ng: info:  [12493] failed: 0
+stress-ng: info:  [12493] metrics untrustworthy: 0
+stress-ng: info:  [12493] successful run completed in 14.69 secs
+
+===== FINAL TEMPERATURE =====
+Exhaust  :   2480 RPM  (min = 1200 RPM, max = 6500 RPM)
+Package id 0:  +95.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 0:        +95.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 1:        +94.0°C  (high = +100.0°C, crit = +100.0°C)
+
+===== FINAL CPU FREQUENCY =====
+/sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: 2402655 kHz
+/sys/devices/system/cpu/cpu1/cpufreq/scaling_cur_freq: 2432397 kHz
+/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq: 2400238 kHz
+/sys/devices/system/cpu/cpu3/cpufreq/scaling_cur_freq: 2400215 kHz
+
+===== THERMAL THROTTLE COUNTERS AFTER =====
+/sys/devices/system/cpu/cpu0/thermal_throttle/core_throttle_count:0
+/sys/devices/system/cpu/cpu0/thermal_throttle/package_throttle_count:0
+/sys/devices/system/cpu/cpu1/thermal_throttle/core_throttle_count:0
+/sys/devices/system/cpu/cpu1/thermal_throttle/package_throttle_count:0
+/sys/devices/system/cpu/cpu2/thermal_throttle/core_throttle_count:0
+/sys/devices/system/cpu/cpu2/thermal_throttle/package_throttle_count:0
+/sys/devices/system/cpu/cpu3/thermal_throttle/core_throttle_count:0
+/sys/devices/system/cpu/cpu3/thermal_throttle/package_throttle_count:0
+
+===== EXIT STATUS =====
+0
+ke 18.11.2026 19.53.34 +0200

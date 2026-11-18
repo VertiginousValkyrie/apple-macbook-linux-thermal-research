@@ -1,0 +1,23 @@
+TEST 1: IDLE LOAD TEST
+Date: 2026-11-18
+System: Fedora Linux 45
+
+CPU:
+Average idle: 96.08%
+User: 1.80%
+System: 1.56%
+I/O wait: 0%
+
+Memory:
+Memory pressure avg10: 0.00%
+zRAM data: 1.1 GiB
+zRAM compressed: 345.2 MiB
+
+Thermals:
+CPU package: 55 C
+Fan: 1202 RPM
+
+Conclusion:
+The system remained stable under idle conditions.
+No significant memory pressure or disk I/O wait was observed.
+CPU utilization was low.
